@@ -1,0 +1,90 @@
+[
+{
+    "title" : "Smoothie à la fraise",
+    "ingredient" : [
+        {
+            "name" :"Fraise",
+            "quantitie" :"75g"
+        }
+    ],
+    "features" : {
+        "cost" : "1 euro",
+        "prepareTime":"5 minutes"
+    },
+    "advice" :"Utiliser les fraises mûres,ajouter 2 ou 3 feuilles de menthes pour le côté frais",
+    "description" :"super smoothie rafraîchissant ,prêt en quelques minutes",
+    "steps" : [
+        {
+            "stepText" : "lavez les fraises à l'eau claire"
+        },
+        {
+            "stepText" : "éliminer les pédoncule avec un couteau pointu"
+        },
+        {
+            "stepText" : "Mixer une minute"
+        },
+        {
+            "stepText" : "servez dans un grand verre"
+        }
+    ]
+},
+{
+    "title" : "Smoothie à la mangue",
+    "ingredient" : [
+        {
+            "name" :"mangue",
+            "quantitie" :"33cl"
+        }
+    ],
+    "features" : {
+        "cost" : "2 euro",
+        "prepareTime":"5 minutes"
+    },
+    "advice" :"Utiliser une  mangue par avion,vous pouvez gratter une demi_gousse de vanille dans la préparatioin",
+    "description" :"description de smoothie mangue",
+    "steps" : [
+        {
+            "stepText" : "lavez la mangue à l'eau claire"
+        },
+        {
+            "stepText" : "avec un couteau non dentelé, inciser la mangue le long de l'arrêt"
+        },
+        {
+            "stepText" : "Mixer une minute"
+        },
+        {
+            "stepText" : "servez dans un grand verre"
+        }
+    ]
+},
+{
+"title" : "Smoothie pasthèque",
+    "ingredient" : [
+        {
+            "name" :"Pasthèque",
+            "quantitie" :"33cl"
+        }
+    ],
+    "features" : {
+        "cost" : "2 euro",
+        "prepareTime":"5 minutes"
+    },
+    "advice" :"Utiliser une  mangue par avion,vous pouvez gratter une demi_gousse de vanille dans la préparatioin",
+    "description" :"description de smoothie Pasthèque",
+    "steps" : [
+        {
+            "stepText" : "couper la pastéque en petit morceau"
+        },
+        {
+            "stepText" : "peser 200 g de pasthèque"
+        },
+        {
+            "stepText" : "Mixer une minute"
+        },
+        {
+            "stepText" : "servez dans un grand verre"
+        }
+    ]
+}
+]
+    
