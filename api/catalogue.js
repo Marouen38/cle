@@ -3,7 +3,9 @@ catalogue de smoothie
 */
 var express = require('express');
 var router = express.Router();
-const smoothie = require('../models/smoothie');
+const Smoothie = require('../models/smoothie');
+const mongoose = require('mongoose');
+
 /* GET users listing. */
 router.get('/list', async(req, res, next)=> {
     try {
@@ -18,9 +20,10 @@ router.get('/list', async(req, res, next)=> {
 });
 
 router.get('/:id',async(req,res,next)=>{
-    const smoothie = await smoothie.findById(mongoose.Types.ObjectId(req.params.id)).exec();
+
+   
     try {
-        
+        const smoothie = await Smoothie.findById(mongoose.Types.ObjectId(req.params.id)).exec();
         console.log('La smoothie : ',smoothie);
         res.send(smoothie);
         
