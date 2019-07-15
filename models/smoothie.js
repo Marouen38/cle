@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const smoothieSchema = mongoose.Schema({
-    name: {
+    title: {
         type: String,
         required: false
     },
